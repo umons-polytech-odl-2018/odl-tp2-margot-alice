@@ -1,0 +1,13 @@
+package exercise3;
+
+public class ConvexPolygon implements Drawable {
+
+	private Point[]points;
+	public ConvexPolygon (Point[]points){
+		this.points=points;
+
+	}
+	@Override
+	public Point[]getVertices(){return points;}
+
+}
